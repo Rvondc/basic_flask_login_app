@@ -44,7 +44,7 @@ project_root/
 1.  **Clone the repository (if applicable) or create the project directory:**
     ```bash
     # If cloning:
-    # git clone <repository_url>
+    # git clone https://github.com/Rvondc/basic_flask_login_app.git
     # cd <project_directory_name>
 
     # If starting from scratch, navigate to your project_root
