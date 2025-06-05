@@ -114,7 +114,7 @@ To run the automated tests:
 **Login Page**
 ![Login Page](./screenshots/login_page.png "Login Page Interface")
 
-**Login Validationo**
+**Login Validation**
 ![Login Validation](./screenshots/login_validation.png "Login Validation Page Interface")
 
 **Success Login**
