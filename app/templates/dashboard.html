@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-container profile-dashboard">
+    <div class="profile-header">
+        <div class="profile-avatar-placeholder">
+            <span>{{ username[0]|upper if username else 'U' }}</span>
+        </div>
+        <h2>User Profile</h2>
+        <h1><span class="username-highlight">{{ username }}</span></h1>
+    </div>
+
+    <div class="profile-details">
+        <h3>Account Information</h3>
+        <ul>
+            <li><strong>Username:</strong> {{ username }}</li>
+            <li><strong>Email:</strong> {{ username.lower() if username else 'user' }}@example.com (mock)</li>
+            <li><strong>Joined:</strong> January 1, 2024 (mock)</li>
+            <li><strong>Status:</strong> <span class="status-active">Active</span></li>
+        </ul>
+    </div>
+
+    <div class="profile-actions">
+        <a href="#" class="btn btn-secondary">Edit Profile</a>
+        <a href="{{ url_for('auth.logout') }}" class="btn btn-primary btn-logout-dashboard">Logout</a>
+    </div>
+</div>
+{% endblock %}
