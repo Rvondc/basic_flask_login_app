@@ -1,6 +1,6 @@
 # Flask Simple Login System
 
-A basic Flask web application demonstrating a simple login system with a clean architecture approach, focusing on SOLID principles. This application features user authentication (login, logout) without a persistent database, using an in-memory store for demonstration purposes.
+A basic Flask web application demonstrating a simple login system with a clean architecture approach. This application features user authentication (login, logout) without a persistent database, using an in-memory store for demonstration purposes.
 
 ## Features
 
@@ -108,3 +108,17 @@ To run the automated tests:
 * **Jinja2**: A modern and designer-friendly templating language for Python (used by Flask).
 * **HTML5 & CSS3**: For structuring and styling the web pages.
 * **Python `unittest`**: For writing and running automated tests.
+
+## Screenshots
+
+**Login Page**
+![Login Page](./screenshots/login_page.png "Login Page Interface")
+
+**Login Validationo**
+![Login Validation](./screenshots/login_validation.png "Login Validation Page Interface")
+
+**Success Login**
+![Login Success](./screenshots/login_success.png "Success Login Page Interface")
+
+**Success Logout**
+![Logout Success](./screenshots/logout_success.png "Success Logout Page Interface")
